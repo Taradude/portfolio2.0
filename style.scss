@@ -87,6 +87,10 @@
   margin: 12px;
 }
 
+.section-third {
+  padding: 16px;
+}
+
 .section-fourth .projects {
   display: flex;
   flex-direction: row;
@@ -102,6 +106,7 @@
   padding: 12px;
   align-items: center;
   justify-content: space-between;
+  text-align: center;
 }
 
 .section-fourth .projects .project img {
@@ -139,6 +144,7 @@ h2 {
   }
   .projects {
     padding: 12px;
+    flex-wrap: wrap;
   }
   .projects .project p {
     display: none;
