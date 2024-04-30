@@ -122,7 +122,7 @@ const fourthScroll = gsap
     },
   })
   .from(".section-fourth h2", {
-    xPercent: -500,
+    xPercent: -700,
     ease: "expoScale(0.5,7,none)",
   })
   .from(".section-fourth .project", {
